@@ -1,0 +1,123 @@
+{
+    "profile": {
+        "name": "Jhelianne Figuerres",
+        "initials": "JOF",
+        "role": "Frontend Developer & UI/UX Designer",
+        "tagline": "I build interfaces that behave, and design ones that feel considered.",
+        "location": "Tallaoen La Union, Philippines",
+        "bio": "I'm an IT student at Lorma Colleges, splitting my time between frontend development, UI/UX design, and Java programming. I like projects that have a real story behind them — a shop, a system, a person using it — rather than throwaway demos. Most of what's below started as a class requirement and turned into something I kept iterating on.",
+        "photo": "assets/profile.jpg",
+        "photoAlt": "Placeholder monogram photo for Jhelianne Figuerres — swap this for a real headshot in assets/"
+    },
+    "skills": [
+        {
+            "name": "HTML5 & Semantic Markup",
+            "category": "Frontend",
+            "level": 90
+        },
+        {
+            "name": "CSS (Flexbox & Grid)",
+            "category": "Frontend",
+            "level": 85
+        },
+        {
+            "name": "JavaScript (DOM, Fetch)",
+            "category": "Frontend",
+            "level": 75
+        },
+        {
+            "name": "Responsive / Mobile-first Design",
+            "category": "Frontend",
+            "level": 80
+        },
+        {
+            "name": "Figma Prototyping",
+            "category": "UI/UX",
+            "level": 70
+        },
+        {
+            "name": "User Flow & Wireframing",
+            "category": "UI/UX",
+            "level": 65
+        },
+        {
+            "name": "Java (OOP, Multithreading)",
+            "category": "Programming",
+            "level": 75
+        },
+        {
+            "name": "JSON & Data Persistence",
+            "category": "Programming",
+            "level": 80
+        }
+    ],
+    "projects": [
+        {
+            "title": "The Crafter's Loop",
+            "category": "UI/UX",
+            "description": "A crochet & yarn e-commerce concept, taken from a horizontally scrolling products page all the way through a full Figma prototype documented in a 29-figure research paper.",
+            "tags": [
+                "Figma",
+                "Prototyping",
+                "E-commerce UX"
+            ],
+            "link": "#"
+        },
+        {
+            "title": "Personal Portfolio (this site)",
+            "category": "Frontend",
+            "description": "A responsive, JSON-driven portfolio built mobile-first, with dynamic rendering so new projects and skills never require touching the HTML.",
+            "tags": [
+                "HTML5",
+                "CSS Grid"
+            ],
+            "link": "#"
+        },
+        {
+            "title": "JF Core Systems",
+            "category": "Programming",
+            "description": "A multi-module Java application bundling a mini-mart POS, a movie rental system, a clothing registration system, and a trivia game, using Gson for JSON persistence.",
+            "tags": [
+                "Java",
+                "OOP",
+                "Json"
+            ],
+            "link": "#"
+        },
+        {
+            "title": "Networked Client-Server POS",
+            "category": "Programming",
+            "description": "A multithreaded point-of-sale system with a dedicated server, client handler, and file manager, using inheritance to model accounts and synchronized file writes.",
+            "tags": [
+                "Java",
+                "Sockets",
+                "Multithreading"
+            ],
+            "link": "#"
+        }
+    ],
+    "timeline": [
+        {
+            "year": "2026 - present",
+            "title": "Tertiary",
+            "place": "Lorma Colleges, La Union",
+            "description": "Coursework spanning frontend web development, UI/UX design, and Java programming, alongside general education subjects."
+        },
+        {
+            "year": "2019 - 2025",
+            "title": "Secondary",
+            "place": "Castor Z. Concepcion Memorial National High School",
+            "description": "Completed junior and senior high school under the STEM strand, where a strong grounding in math and science built the analytical habits I now bring to programming and design."
+        },
+        {
+            "year": "2012 - 2018",
+            "title": "Primary",
+            "place": "Tallaoen Elementary School",
+            "description": "Completed elementary schooling, building the foundation in reading, math, and basic computer literacy that first got me curious about how software works."
+        }
+    ],
+    "contact": {
+        "email": "jhelianne.figuerres@lorma.edu",
+        "github": "https://github.com/JellyScript-2029"
+    }
+}

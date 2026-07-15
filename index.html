@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JOF — Frontend Developer & UI/UX Designer</title>
+  <meta name="description"
+    content="Portfolio of Jhelianne Figuerres (JOF) — frontend development, UI/UX design, and Java programming.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="#top" class="logo">JOF<span class="dot">.</span></a>
+
+      <div class="header-controls">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav"
+          aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+          <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#work" class="nav-link">Work</a></li>
+            <li><a href="#timeline" class="nav-link">Timeline</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <section class="hero" id="top">
+      <div class="wrap hero-inner">
+        <img class="hero-photo" data-photo src="assets/profile.jpg" alt="" width="160" height="160">
+        <p class="eyebrow">Portfolio — 2026</p>
+        <h1 class="hero-name" data-name>Jhelianne Figuerres</h1>
+        <p class="hero-role" data-role>Frontend Developer & UI/UX Designer</p>
+        <p class="hero-tagline" data-tagline>Loading tagline…</p>
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">See the work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+      <div class="stitch-line" aria-hidden="true"></div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="wrap about-grid">
+        <div class="about-label">
+          <span class="section-eyebrow">About Me</span>
+        </div>
+        <div class="about-content">
+          <p class="about-bio" data-bio>Loading bio…</p>
+          <p class="about-location">Based in <span data-location>—</span></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="stitch-line" aria-hidden="true"></div>
+
+    <section class="skills" id="skills">
+      <div class="wrap">
+        <span class="section-eyebrow">My Skills</span>
+        <h2 class="section-title">What I work with</h2>
+
+        <div class="skill-filters" role="tablist" aria-label="Filter skills by category" data-skill-filters>
+        </div>
+
+        <ul class="skill-list" data-skill-list>
+        </ul>
+      </div>
+    </section>
+
+    <div class="stitch-line" aria-hidden="true"></div>
+
+    <section class="work" id="work">
+      <div class="wrap">
+        <span class="section-eyebrow">Selected Work</span>
+        <h2 class="section-title">Things I've built</h2>
+
+        <div class="project-filters" role="tablist" aria-label="Filter projects by category" data-project-filters>
+        </div>
+
+        <div class="project-grid" data-project-grid>
+        </div>
+      </div>
+    </section>
+
+    <div class="stitch-line" aria-hidden="true"></div>
+    <section class="timeline-section" id="timeline">
+      <div class="wrap">
+        <span class="section-eyebrow">Education & Experience</span>
+        <h2 class="section-title">How I got here</h2>
+
+        <ol class="timeline" data-timeline>
+        </ol>
+      </div>
+    </section>
+
+    <div class="stitch-line" aria-hidden="true"></div>
+
+
+    <section class="contact" id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <span class="section-eyebrow">Contact</span>
+          <h2 class="section-title">Let's talk</h2>
+          <p class="contact-copy">Have a project, a class collaboration, or just a question about how something here was
+            built? Send a message.</p>
+          <ul class="contact-links" data-contact-links>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+            <span class="field-error" data-error-for="name"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+            <span class="field-error" data-error-for="email"></span>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <span class="field-error" data-error-for="message"></span>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>&copy; <span id="year"></span> Jhelianne Figuerres. Built with HTML, CSS & JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
